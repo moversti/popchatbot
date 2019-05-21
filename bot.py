@@ -1,5 +1,5 @@
 from flask import Flask, request,jsonify
-from eliza import eliza
+from eli import eliza
 
 app = Flask(__name__)
 therapist = eliza.eliza()
